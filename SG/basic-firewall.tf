@@ -1,6 +1,3 @@
-provider "aws" {
-region = "us-east-1" # enter region of your choice
-}
 
 resource "aws_security_group" "allow_tls" { #can enter any local resource name
 name = "my-firewall"
