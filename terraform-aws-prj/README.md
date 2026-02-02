@@ -1,4 +1,4 @@
-# Terraform AWS Associate Project
+# Terraform-AWS Project
 
 This repository contains AWS infrastructure project built using Terraform to get you 
 started in IaC.
