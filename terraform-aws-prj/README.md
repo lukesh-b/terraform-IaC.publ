@@ -94,5 +94,5 @@ terraform apply
 ### 6. Destroy Resources
 
 ```bash
-terraform destroy
+terraform destroy -auto-approve
 ```
