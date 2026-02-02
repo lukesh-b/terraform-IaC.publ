@@ -1,15 +1,27 @@
+############################################
+# Elastic IP for Load Balancer / EC2
+############################################
 
 resource "aws_eip" "lb" {
-domain = "vpc"
+  domain = "vpc"
 }
 
-output "public-ip" {
-value = aws_eip.lb.public_ip
+############################################
+# Outputs
+############################################
 
+output "public_ip" {
+  description = "Public IPv4 address assigned to the Elastic IP"
+  value       = aws_eip.lb.public_ip
 }
-output "Full-IP" {
-value = "https://${aws_eip.lb.public_ip}:8080" # Notice, that you can also customize the output
+
+output "service_endpoint" {
+  description = "Service endpoint exposed on port 8080"
+  value       = "https://${aws_eip.lb.public_ip}:8080"
 }
-output "associated-attributes-are" {
-value = aws_eip.my-eip #with this it will show you the relevant output . You can also query on the output value
+
+output "elastic_ip_details" {
+  description = "Full Elastic IP resource attributes"
+  value       = aws_eip.lb
 }
+
