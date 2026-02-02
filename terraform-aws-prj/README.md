@@ -52,29 +52,34 @@ This project focuses on:
 ```bash
 git clone https://github.com/lukesh-b/terraform-IaC.publ.git
 cd terraform-aws-prj
+```
 
 ### 2. Create variable file
 
 ```bash
 cp terraform.tfvars.example terraform.tfvars
+```
 
 ### 3. Initialize Terraform
 
 ```bash
 terraform init
+```
 
 ### 4. Review the plan
 
 ```bash
 terraform plan
+```
 
 ### 5. Apply the configuration
 
 ```bash
 terraform apply
+```
 
 ### 6. Destroy Resources
 
 ```bash
 terraform destroy
-
+```
