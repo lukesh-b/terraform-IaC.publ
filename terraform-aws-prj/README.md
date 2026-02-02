@@ -43,6 +43,17 @@ This project focuses on:
 ├── outputs.tf # Output values
 └── README.md
 ```
+## Structure
+```
+graph TD
+    Internet --> EIP[Elastic IP]
+    EIP --> EC2[EC2 Instance]
+    EC2 --> SG[Security Group]
+    SG --> Subnet[Public Subnet]
+    Subnet --> RT[Route Table]
+    RT --> IGW[Internet Gateway]
+    IGW --> VPC[VPC]
+```
 
 ---
 
