@@ -44,7 +44,7 @@ This project focuses on:
 └── README.md
 ```
 ## Structure
-```
+```mermaid
 graph TD
     Internet --> EIP[Elastic IP]
     EIP --> EC2[EC2 Instance]
