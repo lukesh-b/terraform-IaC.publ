@@ -44,7 +44,7 @@ This project focuses on:
 ├── outputs.tf # Output values
 └── README.md
 ```
-## Structure
+## Infrastructure architecture diagram
 ```mermaid
 graph TD
     Internet --> EIP[Elastic IP]
