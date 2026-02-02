@@ -32,6 +32,7 @@ This project focuses on:
 ---
 
 ## Project Structure
+```
 ├── providers.tf # AWS provider configuration
 ├── versions.tf # Terraform version constraints
 ├── variables.tf # Input variables
@@ -41,7 +42,7 @@ This project focuses on:
 ├── ec2.tf # EC2 and Elastic IP
 ├── outputs.tf # Output values
 └── README.md
-
+```
 
 ---
 
