@@ -91,7 +91,7 @@ terraform plan
 terraform apply
 ```
 
-### 6. Destroy Resources
+### 6. Destroy Resources (ENSURE YOU DESTROY ANY CREATED RESOURCES !!!)
 
 ```bash
 terraform destroy -auto-approve
