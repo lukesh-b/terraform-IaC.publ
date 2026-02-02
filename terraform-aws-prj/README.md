@@ -45,6 +45,9 @@ This project focuses on:
 └── README.md
 ```
 ## Infrastructure architecture diagram
+```
+This Terraform project provisions a VPC with a public subnet, internet routing, and security rules so an EC2 instance with an Elastic IP can be securely accessed from the public internet.
+```
 ```mermaid
 graph TD
     Internet --> EIP[Elastic IP]
